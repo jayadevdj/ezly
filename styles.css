@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2b6777;
+  color: white;
+  padding: 15px 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Product Categories */
+.categories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.category {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+  text-align: center;
+  color: #444;
+}
+
+.product-list .product {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.product h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.product p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.product button {
+  background-color: #2b6777;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #1b4f5a;
+}
+
+/* Booking Section */
+.booking {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.booking label {
+  font-weight: bold;
+}
+
+.booking select,
+.booking input,
+.booking button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking button {
+  background-color: #2b6777;
+  color: white;
+  cursor: pointer;
+}
+
+.booking button:hover {
+  background-color: #1b4f5a;
+}
+
+#booking-status {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Login Section */
+form {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #2b6777;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1b4f5a;
+}
